@@ -1,13 +1,30 @@
 # Ogres
 Unity game to learn HTN-based AI (HTN specs below)
 
-Ogres/ not really, they're bears now.
-You, first-person player, spawn in the plane and must grab each bear's treasure without getting mauled first.
-Thankfully the bears have their own business to attend to, mushrooms. 
-While they're eating, it's a good time to sneak around the rocky terrain and get to their very cubist style caves. Give each a quick run-through to collect that bear's treasure as you can see in the displayed UI.
-Careful! The bears can sense when their treasure's been taken, and will immediately get angry. If they see you, they will find and attack you. They won't eat you though -these bears care about the environment so they go plant-based. Even with their protein defficiency they are quite strong and can throw nearby boulders at you.
-Because I am kind, you have 2 lives to achieve the task of robbing all the vegan bears. You must reach all caves and return to your spawn point without getting caught. 
-Hint - the bears are smart and fast, but invisibility at the right time can go a long way.
+## About the Game
+
+**Ogres?** Not really, they're bears now.
+
+You, a first-person player, spawn on the plane and must grab each bear's treasure without getting mauled first.
+
+Thankfully, the bears have their own business to attend to: mushrooms. While they're eating, it's a good time to sneak around the rocky terrain and get to their very cubist-style caves. Give each cave a quick run-through to collect that bear's treasure, as you can see in the displayed UI.
+
+### Watch Out!
+
+**Careful!** The bears can sense when their treasure's been taken and will immediately get angry. If they see you, they will find and attack you. They won't eat you though—these bears care about the environment, so they go plant-based. Even with their protein deficiency, they are quite strong and can throw nearby boulders at you.
+
+### Objective
+
+Because I am kind, you have **2 lives** to achieve the task of robbing all the vegan bears. You must:
+- Reach all caves
+- Collect all treasures
+- Return to your spawn point without getting caught
+
+**Hint:** The bears are smart and fast, but invisibility at the right time can go a long way.
+
+![Me when I've made two bears very angry](https://github.com/user-attachments/assets/564f3c42-b7ce-4c12-a7da-00d9c0970142)
+
+*me when I've made two bears very angry*
 
 CONTROLS:
 Space for invis for 10s (LIMITED)
@@ -19,6 +36,10 @@ Console log also good to keep track of actions
 
 IGNORE errors about read/writes with navmesh, had issues with version compatibilities so i think it's fine in game editor just not as a downloaded game, as far as I understand
 
+![Editor view for navmesh and bear vision rays](https://github.com/user-attachments/assets/c7e8754f-dec9-4db2-a0e7-8528edf7d024)
+
+*Editor view for navmesh and bear vision rays*
+
 DESIGN CHOICES
 - not finding a good animated ogre, so bear instead
 - camera to help fov of each bear
@@ -28,6 +49,11 @@ LIMITATIONS
 - difficulties with making tasks last long enough
 - animations and short tasks therefore not very visible, can only tell through console at times
 - bears go to the same mushroom, it's ok they can share :)
+
+NEXT
+- i like the look of birdseye and it's easier to take in the environment as opposed to first-person
+- changes to invisibility conditions - currently bears are too smart and can find you too fast, leading to a very short and tough game
+- I'll take out the bear activity UI, it's not necessary anymore
 
 ########### HTN doc
 
