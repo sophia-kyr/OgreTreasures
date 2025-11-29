@@ -1,6 +1,4 @@
-COMP 521
-Sophia Kyrychenko, 261099949
-Nov 26, 2025
+Sophia Kyrychenko,
 
 CONTROLS:
 Space for invis for 10s
